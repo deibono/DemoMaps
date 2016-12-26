@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+>
+
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+        <ToggleButton
+        android:id="@+id/wifi"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gps"
+        android:layout_alignBottom="@+id/gps"
+        android:layout_alignLeft="@+id/btnShowLocation"
+        android:layout_marginLeft="79dp"
+        android:text="WIFI"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gps"
+        android:layout_alignLeft="@+id/btnShowLocation"
+        android:text="GPS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="61dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="WIFI"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <ToggleButton
+        android:id="@+id/gps"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="72dp"
+        android:text="GPS"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="72dp"
+        android:layout_above="@+id/btnShowLocation"
+        android:layout_alignEnd="@+id/textView2" />
+
+        <Button android:id="@+id/btnShowLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Où suis je?"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="99dp" />
+
+
+    </RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_maps">DiscoverLive</string>
+    <string name="app_name">DiscoverLive</string>
+    <string name="nom">Défi : </string>
+    <string name="prenom">Bonus : </string>
+    <string name="notification_title">Notification : </string>
+    <string name="notification_desc">C une notif : </string>
+    <string name="action_save">Creer une notif</string>
+    <string name="action_dialog">Creer une dialog box</string>
+</resources>
